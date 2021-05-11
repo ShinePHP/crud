@@ -1,0 +1,8 @@
+.*
+~*
+vendor/
+*.sublime-project
+*.sublime-workspace
+*.log
+!.gitignore
+!.github
