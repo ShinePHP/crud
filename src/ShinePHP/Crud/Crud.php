@@ -2,4 +2,10 @@
 
 namespace ShinePHP\Crud;
 
-class Crud {}
+class Crud {
+
+	public function __construct(DatabaseConnectionDetailsDataObject $dbConnectionDetails) {
+		//
+	}
+
+}
