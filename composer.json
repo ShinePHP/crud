@@ -1,4 +1,9 @@
 {
+    "name": "shinephp/crud",
+    "description": "This is the database access and manipulation class within ShinePHP",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
     "require-dev": {
         "phpunit/phpunit": "^9"
     },
