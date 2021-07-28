@@ -8,13 +8,13 @@ class DatabaseConnectionDetailsDataObject extends BaseDataObject {
 	/**
 	 * @var string $dsn data source name (ie -> database collection details)
 	 */
-	$dsn;
+	public $dsn;
 	/**
 	 * @var string $username database username
 	 */
-	$username;
+	public $username;
 	/**
 	 * @var string $password database password
 	 */
-	$password;
+	public $password;
 }
