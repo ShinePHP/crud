@@ -6,5 +6,8 @@
         "classmap": [
             "src/ShinePHP/"
         ]
+    },
+    "require": {
+        "shinephp/data-objects": "^1.0"
     }
 }

@@ -4,8 +4,43 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eaf427e91c04d06abdb542687ebc4d5d",
-    "packages": [],
+    "content-hash": "c4a3cc79b377fb2abb8c7714fae9a3e4",
+    "packages": [
+        {
+            "name": "shinephp/data-objects",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ShinePHP/data-objects.git",
+                "reference": "9e7b8dd48b3d2a2162ad0a777bb2664c04671c19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ShinePHP/data-objects/zipball/9e7b8dd48b3d2a2162ad0a777bb2664c04671c19",
+                "reference": "9e7b8dd48b3d2a2162ad0a777bb2664c04671c19",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ShinePHP\\": "src/ShinePHP/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The data object repo for all of the ShinePHP repos",
+            "support": {
+                "issues": "https://github.com/ShinePHP/data-objects/issues",
+                "source": "https://github.com/ShinePHP/data-objects/tree/1.0.0"
+            },
+            "time": "2021-07-27T22:14:44+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
