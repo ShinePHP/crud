@@ -1,0 +1,25 @@
+name: CI Validation
+
+on: [push]
+
+jobs:
+
+  run:
+
+    runs-on: ubuntu-latest
+    
+    name: CI Validation
+    steps:
+
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Install Correct PHP Version
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4'
+
+    - name: Run composer install
+      run: composer install -o
+    - name: Run Tests
+      run: vendor/bin/phpunit tests
