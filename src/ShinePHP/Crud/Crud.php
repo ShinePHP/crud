@@ -23,7 +23,11 @@ class Crud {
 		$dataReturn = $pdoStmt->fetchAll();
 		$pdoStmt->closeCursor();
 		$pdoStmt = null;
-		return ($returnSingleRow ? $dataReturn[0] : $dataReturn);
+		if (empty($dataReturn)) {
+			return [];
+		} else {
+			return ($returnSingleRow ? $dataReturn[0] : $dataReturn);
+		}
 	}
 
 	public function change(string $sql, array $values = []): DatabaseChangeDataObject {
